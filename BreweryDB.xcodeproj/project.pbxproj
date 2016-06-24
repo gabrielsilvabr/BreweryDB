@@ -19,9 +19,10 @@
 		238646061CD3F6FD00170B2D /* BreweryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238646051CD3F6FD00170B2D /* BreweryRequest.swift */; };
 		238646091CD3F81100170B2D /* BreweryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238646081CD3F81100170B2D /* BreweryTests.swift */; };
 		2386460D1CD3FBB100170B2D /* BreweryRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2386460C1CD3FBB100170B2D /* BreweryRequestTests.swift */; };
-		2398559C1CE100A0001CA4AC /* Available.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2398559B1CE100A0001CA4AC /* Available.swift */; };
+		238E13561D1DC5350049BFCC /* CategoryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238E13551D1DC5350049BFCC /* CategoryRequest.swift */; };
 		239855981CE0F8EF001CA4AC /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239855971CE0F8EF001CA4AC /* Style.swift */; };
 		2398559A1CE0FE39001CA4AC /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239855991CE0FE39001CA4AC /* Category.swift */; };
+		2398559C1CE100A0001CA4AC /* Available.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2398559B1CE100A0001CA4AC /* Available.swift */; };
 		23DF758B1C5D0E9C00D5D218 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DF758A1C5D0E9C00D5D218 /* RequestBuilder.swift */; };
 		23DF758D1C5D14D700D5D218 /* RequestBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DF758C1C5D14D700D5D218 /* RequestBuilderTests.swift */; };
 		23ECAC2B1CDF9B1100DCAB08 /* Glass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ECAC2A1CDF9B1100DCAB08 /* Glass.swift */; };
@@ -58,9 +59,10 @@
 		238646051CD3F6FD00170B2D /* BreweryRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreweryRequest.swift; sourceTree = "<group>"; };
 		238646081CD3F81100170B2D /* BreweryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreweryTests.swift; sourceTree = "<group>"; };
 		2386460C1CD3FBB100170B2D /* BreweryRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreweryRequestTests.swift; sourceTree = "<group>"; };
-		2398559B1CE100A0001CA4AC /* Available.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Available.swift; sourceTree = "<group>"; };
+		238E13551D1DC5350049BFCC /* CategoryRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryRequest.swift; sourceTree = "<group>"; };
 		239855971CE0F8EF001CA4AC /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 		239855991CE0FE39001CA4AC /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		2398559B1CE100A0001CA4AC /* Available.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Available.swift; sourceTree = "<group>"; };
 		23DF758A1C5D0E9C00D5D218 /* RequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
 		23DF758C1C5D14D700D5D218 /* RequestBuilderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestBuilderTests.swift; sourceTree = "<group>"; };
 		23ECAC2A1CDF9B1100DCAB08 /* Glass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Glass.swift; sourceTree = "<group>"; };
@@ -146,6 +148,15 @@
 			name = BreweryTests;
 			sourceTree = "<group>";
 		};
+		238E13571D1DC5380049BFCC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				239855991CE0FE39001CA4AC /* Category.swift */,
+				238E13551D1DC5350049BFCC /* CategoryRequest.swift */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 		23FF53B81C397A7B0094249C = {
 			isa = PBXGroup;
 			children = (
@@ -178,9 +189,9 @@
 				23ECAC2A1CDF9B1100DCAB08 /* Glass.swift */,
 				2398559B1CE100A0001CA4AC /* Available.swift */,
 				239855971CE0F8EF001CA4AC /* Style.swift */,
-				239855991CE0FE39001CA4AC /* Category.swift */,
 				238646011CD3F47000170B2D /* Beer */,
 				238646071CD3F7D200170B2D /* Brewery */,
+				238E13571D1DC5380049BFCC /* Category */,
 			);
 			path = BreweryDB;
 			sourceTree = "<group>";
@@ -374,6 +385,7 @@
 				233CB5C21CD47E10000E36B7 /* JSONParser.swift in Sources */,
 				23FF53E41C39831B0094249C /* BreweryDB.swift in Sources */,
 				23FF53E61C3985660094249C /* Beer.swift in Sources */,
+				238E13561D1DC5350049BFCC /* CategoryRequest.swift in Sources */,
 				23ECAC2B1CDF9B1100DCAB08 /* Glass.swift in Sources */,
 				233ECF031C4063A40050971B /* BeerRequest.swift in Sources */,
 				238646041CD3F4CC00170B2D /* Brewery.swift in Sources */,

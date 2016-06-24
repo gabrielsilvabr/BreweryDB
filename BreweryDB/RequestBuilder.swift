@@ -11,6 +11,7 @@ import Foundation
 public enum RequestEndPoint: String {
     case Beers = "beers"
     case Breweries = "breweries"
+    case Categories = "categories"
 }
 
 public extension NSURL {

@@ -22,7 +22,7 @@ public enum BreweryRequestParam: String {
     case Year = "year"
     case Since = "since"
     case Status = "status"
-    case RandomCount = "order"
+    case RandomCount = "randomCount"
     case PageNumber = "p"
 }
 
